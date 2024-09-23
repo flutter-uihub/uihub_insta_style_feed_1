@@ -1,0 +1,29 @@
+name: uihub_insta_style_feed_1
+description: "free flutter ui is all you need"
+#publish_to: 'none'
+repository: https://github.com/flutter-uihub/uihub_insta_style_feed_1
+
+version: 1.0.0
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: #@add
+  gap: #@add
+  styled_widget: #@add
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints:
+
+flutter:
+  assets:
+    - assets/uihub/uihub_insta_style_feed_1/
+  uses-material-design: true
+
+topics:
+  - uihub
